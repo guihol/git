@@ -43,6 +43,11 @@ function sum(x, y) {
     return soma;
 }
 
+function makeBetweenFunc(min, max) {
+    return function (num) {
+        return num >= min && num <= max
+    }
+}
 
 
 
