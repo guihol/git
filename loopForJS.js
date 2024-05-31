@@ -28,8 +28,6 @@ for (let i = animal.length - 1; i >= 0; i--)
 
     }
 
-
-
 let count = 0;
 
 while (count < 10) {
@@ -38,7 +36,6 @@ while (count < 10) {
 
 
 }
-
 
 
 let input = prompt("digite alguma coisa");

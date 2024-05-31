@@ -1,4 +1,4 @@
-let action = prompt("what would you like to do?");
+/* let action = prompt("what would you like to do?");
 const lista = [];
 let i = 0;
 
@@ -47,7 +47,26 @@ function makeBetweenFunc(min, max) {
     return function (num) {
         return num >= min && num <= max
     }
+} */
+
+const square = {
+    area(side) {
+        return side * side * side * side
+    },
+    perimeter(side) {
+        return side * 4
+    }
 }
+
+const hen = {
+    name: "Helen",
+    eggCount: 0,
+    layAnEgg() {
+        this.eggCount += 1
+        return "EGG"
+    }
+}
+
 
 
 
