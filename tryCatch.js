@@ -51,3 +51,16 @@ function allEvens(arr) {
     });
 }
 
+
+
+function rollDIe(sides) {
+    if (sides === undefined) {
+        sides = 6;
+    }
+    return Math.floor(Math.random() * sides) + 1;
+
+}
+
+
+
+
